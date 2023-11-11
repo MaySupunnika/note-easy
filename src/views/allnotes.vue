@@ -2,7 +2,10 @@
   <div class="flex justify-center pt-[21rem]" v-if="note_store.loadindNotes">
     <h1 class="text-Orange-100 text-xl font-semibold">Loading...</h1>
   </div>
-  <div class="bg-Orange-500 pt-[9rem] px-[4rem] max-sm:pt-[12rem]" v-else>
+  <div
+    class="bg-Orange-500 pt-[9rem] px-[4rem] max-sm:pb-[11.8rem] max-md:pb-[8rem]"
+    v-else
+  >
     <h1
       class="text-Orange-100 text-5xl font-extrabold text-center mb-[3rem] max-sm:text-3xl max-sm:mb-0 max-md:text-3xl"
     >
